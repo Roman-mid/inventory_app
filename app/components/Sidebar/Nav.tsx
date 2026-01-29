@@ -1,4 +1,4 @@
-import { SidebarProps } from '../types/sidebar.type';
+import { SidebarProps } from '@/app/types/sidebar.type';
 import Menu from './Menu';
 
 const Nav = ({ currentPath = '/dashboard' }: SidebarProps) => {

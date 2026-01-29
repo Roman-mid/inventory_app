@@ -1,6 +1,6 @@
 import { BarChart3, Package, Plus, Settings } from 'lucide-react';
 import ILink from './ILink';
-import { SidebarProps } from '../types/sidebar.type';
+import { SidebarProps } from '@/app/types/sidebar.type';
 
 const Menu = ({ currentPath = '/dashboard' }: SidebarProps) => {
   return (
